@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    max-width: 1920px;
+    padding: 2em;
+    /* height: 4138px; */
+}
+
+.topic{
+    font-size: 3.1rem;
+    font-weight: bolder;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    max-width: 100em;
+    margin-top: 1.3em;
+}
+
+.box-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    max-width: 30em;
+    /* height: 28em; */
+}
+
+.box-1-1a{
+    width: 100%;
+    max-width: 30em;
+    height: 21em;
+}
+
+.box-1-1a img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.box-1-1b{
+    text-align: center;
+    padding: 0.2em;
+    width: 100%;
+    max-width: 30em;
+}
+
+.description{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    max-width: 100em;
+}
+
+.box-2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    max-width: 30em;
+
+}
+
+.box-2-1a{
+    width: 100%;
+    max-width: 30em;
+    height: 21em
+}
+
+.box-2-1a img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.box-2-1b{
+    text-align: center;
+    padding: 0.2em;
+    width: 100%;
+    max-width: 30em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .box-1{
+        flex-direction: column;
+    }
+
+    .box-1-1{
+    width: 100%;
+    max-width: 100%;
+   
+}
+
+.box-2{
+    flex-direction: column;
+    max-width: 100em;
+}
+
+.box-2-1{
+    max-width: 100%;
+
+}
+
+}
